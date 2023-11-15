@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../assets/images/bg.jpg') no-repeat center/cover;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.login-container {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: .7rem;
+    background-color: transparent;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: none;
+    outline: none;
+    border: 2px solid #C700C6;
+}
+
+button {
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.8rem;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message{
+    color: yellow;
+    font-weight: 400;
+}
+
+.success-message{
+    color: green;
+    font-weight: bold;
+}
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    background-color: #281c4f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .success-popup h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  span{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .links{
+    color: yellow;
+    text-decoration: underline;
+  }
